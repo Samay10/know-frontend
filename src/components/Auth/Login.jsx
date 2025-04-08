@@ -19,11 +19,6 @@ const Login = () => {
         <div className="text-center mb-6">
           <h1 className="text-2xl font-bold">Login to Your Account</h1>
           <p className="text-sm text-gray-500">Compliance made simple and secure</p>
-
-          {/* ✅ Tailwind Test */}
-          <p className="text-xl font-semibold text-red-500 mt-4">
-            Tailwind CSS is working!
-          </p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-5">

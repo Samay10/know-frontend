@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { FaEye, FaEyeSlash, FaEnvelope, FaLock, FaUser } from 'react-icons/fa';
 
 const Register = () => {
-  const [form, setForm] = useState({ name: '', email: '', password: '' });
+  const [form, setForm] = useState({ name: '', email: '', password: '' }); // firstname and secondname
   const [showPassword, setShowPassword] = useState(false);
 
   const handleChange = (e) =>
