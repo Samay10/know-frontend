@@ -54,7 +54,10 @@ const Login = () => {
               {showPassword ? <FaEyeSlash size={18} /> : <FaEye size={18} />}
             </button>
           </div>
-
+          <div style={{textAlign: 'center'}}>
+          <p style={{ marginTop: '20px', fontSize: '14px', fontFamily: 'Poppins, sans-serif', alignItems:'center' }}>
+           <a href="/forgot" style={{ textDecoration: 'underline', color: '#007bff',  textAlign: 'center' }}>Forgot Password ?</a>
+        </p></div>
           <button
             type="submit"
             className="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition"
@@ -69,6 +72,7 @@ const Login = () => {
             Register
           </a>
         </p>
+
       </div>
     </div>
   );

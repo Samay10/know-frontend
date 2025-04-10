@@ -1,0 +1,128 @@
+
+/* .form-container {
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+} */
+
+.form-container{
+  display:flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  background-color: #ffffff;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  width: 100; 
+  max-width: 400px;
+  margin:auto;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.resend-text {
+  color: #6c757d;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.resend-link {
+  color: #007bff;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.resend-link:hover {
+  color: #0056b3;
+}
+
+.feedback-text {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.validation-list {
+  margin: 10px 0;
+  padding-left: 18px;
+  font-size: 14px;
+  list-style-type: disc;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.input-with-toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-with-toggle input {
+  flex: 1;
+  padding-right: 70px;
+}
+
+.toggle-btn {
+  position: absolute;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
